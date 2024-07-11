@@ -1,7 +1,7 @@
 modules = ["python-3.12"]
-run = "python3 hello.py"
+run = "python3 comments_and_escape_sequence.py"
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "python3 hello.py"]
+run = ["sh", "-c", "python3 comments_and_escape_sequence.py"]
