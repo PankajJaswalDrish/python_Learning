@@ -44,6 +44,11 @@ print(name1[:2])
 print(name1[:1])
 print(name1[:0])
 print(name1[:])
+name3 = "Harry"
+print(name3[-4:-2])
+print(name[-4:-3])
+print(name1[-6:-2])#print(name1[Starting : ending - 1])
+
 # String Methods
 print("-----String Methods are used to modify the string-------")
 # Example:
